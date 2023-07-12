@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txt_weight_id"
+            style="@style/list_row_labels_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txt_weight_id_hint"/>
+
+        <TextView
+            android:id="@+id/txt_weight_weight"
+            style="@style/list_row_labels_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txt_weight_weight_hint"/>
+
+        <TextView
+            android:id="@+id/txt_weight_date"
+            style="@style/list_row_labels_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txt_weight_date_hint"/>
+
+        <TextView
+            android:id="@+id/txt_weight_app"
+            style="@style/list_row_labels_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txt_weight_app_hint"/>
+
+        <TextView
+            android:id="@+id/txt_weight_status"
+            style="@style/list_row_labels_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txt_weight_status_hint"/>
+
+        <TextView
+            android:id="@+id/txt_weight_created_date"
+            style="@style/list_row_labels_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txt_weight_created_date_hint"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btn_update_weight"
+            style="@style/editcrudimagetheme"
+            android:contentDescription="@string/edit_image_content_description" />
+
+        <ImageButton
+            android:id="@+id/btn_delete_weight"
+            style="@style/deletecrudimagetheme"
+            android:contentDescription="@string/delete_image_content_description" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="medium_padding">10dp</dimen>
+    <dimen name="large_padding">10dp</dimen>
+    <dimen name="small_font">14sp</dimen>
+    <dimen name="medium_font">16sp</dimen>
+    <dimen name="large_font">10sp</dimen>
+    <dimen name="actionBarSize">100dp</dimen>
+
+    <dimen name="nav_header_height">5dp</dimen>
+    <dimen name="side_nav_bar">10dp</dimen>
+    <dimen name="nav_header_vertical_spacing">10dp</dimen>
+
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+
+    <dimen name="splash_vertical_margin">1dp</dimen>
+    <dimen name="splash_horizontal_margin">1dp</dimen>
+
+    <dimen name="layout_vertical_margin">5dp</dimen>
+    <dimen name="layout_horizontal_margin">5dp</dimen>
+
+    <dimen name="button_horizontal_margin">5dp</dimen>
+    <dimen name="button_vertical_margin">5dp</dimen>
+
+    <dimen name="main_activity_buttons_layout_margin">5dp</dimen>
+
+    <dimen name="list_horizontal_margin">5dp</dimen>
+    <dimen name="list_vertical_margin">5dp</dimen>
+
+    <dimen name="weights_list_vertical_margin">10dp</dimen>
+    <dimen name="weights_list_title_vertical_margin">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+
+    <dimen name="crud_control_margin">5dp</dimen>
+    <dimen name="crud_control_padding">5dp</dimen>
+
+    <dimen name="title_control_padding">10dp</dimen>
+    <dimen name="title_control_text_size">20dp</dimen>
+
+    <dimen name="list_row_control_margin">1dp</dimen>
+    <dimen name="list_row_control_padding">10dp</dimen>
+
+    <dimen name="list_row_labels_horizontal_margin">1dp</dimen>
+    <dimen name="list_row_labels_vertical_margin">1dp</dimen>
+    <dimen name="list_row_labels_margin">1dp</dimen>
+
+    <dimen name="spinner_row_labels_horizontal_margin">5dp</dimen>
+    <dimen name="spinner_row_labels_vertical_margin">5dp</dimen>
+    <dimen name="spinner_row_labels_margin">5dp</dimen>
+
+    <dimen name="popup_Elevation">50dp</dimen>
+
+    <dimen name="spinnerheight">50dp</dimen>
+
+    <dimen name="popupminHeight">100dp</dimen>
+
+    <dimen name="dropdownminheight">100dp</dimen>
+
+    <dimen name="messagetextappearancesize">14sp</dimen>
+
+    <dimen name="toastmessagetextsize">30sp</dimen>
+
+    <dimen name="dialog_min_width_major">5dp</dimen>
+    <dimen name="dialog_min_width_minor">5dp</dimen>
+
+    <dimen name="dividerHeight">1dp</dimen>
+
+    <dimen name="text_size_normal">14sp</dimen>
+
+    <dimen name="durationfadeout">5000</dimen>
+
+    <dimen name="lblsplashprogressinfofont">13sp</dimen>
+
+    <dimen name="lblsysipaddressfont">20sp</dimen>
+
+    <dimen name="lbltimerfont">30sp</dimen>
+
+    <dimen name="autocompletethreshold">1</dimen>
+
+    <dimen name="lblrecordcount_padding">1dp</dimen>
+
+    <dimen name="lblrecordcount_margin">1dp</dimen>
+
+    <dimen name="search_layout_horizontal_margin">1dp</dimen>
+    <dimen name="search_layout_vertical_margin">1dp</dimen>
+    <dimen name="search_row_labels_margin">1dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+    <dimen name="receiver_priority">999999999</dimen>
+
+</resources>
+
+
+
+
+
+
+
+

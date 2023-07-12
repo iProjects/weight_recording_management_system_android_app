@@ -1,0 +1,319 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Weight_recording" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="weight_ui_container_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:background">@color/create_weight_ui_container_theme</item>
+        <item name="android:paddingTop">@dimen/list_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/list_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_horizontal_margin</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">fill</item>
+    </style>
+
+    <style name="weights_list_ui_container_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:background">@color/create_weight_ui_container_theme</item>
+        <item name="android:paddingTop">@dimen/weights_list_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/weights_list_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_horizontal_margin</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:top">@dimen/margin_top</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+    </style>
+
+    <style name="crud_parentlayouttheme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/white_text_color</item>
+        <item name="android:background">@color/crud_parentlayouttheme</item>
+        <item name="android:paddingTop">@dimen/list_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/list_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_horizontal_margin</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">fill</item>
+    </style>
+
+    <style name="crud_controls_layout_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <!--        <item name="android:background">@color/crud_controls_layout_theme_backgroundcolor</item>-->
+        <item name="android:paddingTop">@dimen/list_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/list_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_horizontal_margin</item>
+        <item name="android:gravity">fill</item>
+    </style>
+
+    <style name="crudlabelstheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudlabelcolor</item>
+        <item name="android:background">@color/black_background</item>
+        <item name="android:padding">@dimen/crud_control_padding</item>
+    </style>
+
+    <style name="crudtextboxtheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:background">@drawable/edit_text_view_style</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudtextboxcolor</item>
+        <item name="android:textColorHint">@color/crudtextboxcolor</item>
+        <!--        <item name="android:padding">@dimen/crud_control_padding</item>-->
+        <item name="android:layout_margin">@dimen/spinner_row_labels_margin</item>
+    </style>
+
+    <style name="constraintlayouttheme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/white_text_color</item>
+        <item name="android:background">@color/black_background</item>
+        <item name="android:paddingTop">@dimen/list_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/list_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_horizontal_margin</item>
+    </style>
+
+    <style name="crud_spinner_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/list_row_labels_theme_foregroundcolor</item>
+        <item name="android:background">@color/list_row_labels_theme_backgroundcolor</item>
+        <item name="android:padding">@dimen/spinner_row_labels_vertical_margin</item>
+        <item name="android:layout_margin">@dimen/spinner_row_labels_margin</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:minHeight">@dimen/dropdownminheight</item>
+        <item name="android:popupTheme">@style/spinner_popup_theme</item>
+        <item name="android:popupElevation">@dimen/popup_Elevation</item>
+        <item name="android:popupBackground">@drawable/eclipse</item>
+        <item name="android:dropDownSelector">@drawable/eclipse</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/spinnerheight</item>
+    </style>
+
+    <style name="spinner_popup_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/spinner_dropdown_row_labels_theme_foregroundcolor
+        </item>
+        <item name="android:background">@color/spinner_dropdown_row_labels_theme_backgroundcolor
+        </item>
+        <item name="android:padding">@dimen/spinner_row_labels_vertical_margin</item>
+        <item name="android:layout_margin">@dimen/spinner_row_labels_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:popupElevation">@dimen/popup_Elevation</item>
+        <item name="android:minHeight">@dimen/popupminHeight</item>
+    </style>
+
+    <style name="crud_spinner_row_item_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/spinner_dropdown_row_labels_theme_foregroundcolor
+        </item>
+        <item name="android:background">@color/spinner_dropdown_row_labels_theme_backgroundcolor
+        </item>
+        <item name="android:padding">@dimen/spinner_row_labels_vertical_margin</item>
+        <item name="android:layout_margin">@dimen/spinner_row_labels_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/Widget.AppCompat.Spinner.Underlined</item>
+    </style>
+
+    <style name="crud_buttons_layout_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <!--        <item name="android:background">@color/crud_controls_layout_theme_backgroundcolor</item>-->
+        <item name="android:paddingTop">@dimen/list_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/list_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_horizontal_margin</item>
+        <item name="android:gravity">fill</item>
+    </style>
+
+    <style name="crudbuttonstheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudbuttoncolor</item>
+        <item name="android:background">@drawable/button_view_style</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">@color/crudbutton_backgroundcolor</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:padding">@dimen/crud_control_padding</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="crudsecondbuttonstheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudbuttoncolor</item>
+        <item name="android:background">@drawable/button_view_style</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">@color/crudbutton_backgroundcolor</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:padding">@dimen/crud_control_padding</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="crudimagetheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudbuttoncolor</item>
+        <item name="android:background">@drawable/add</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">@color/crudbutton_backgroundcolor</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:padding">@dimen/crud_control_padding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/add</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="lblmsglog" parent="Theme.AppCompat">
+        <item name="android:colorControlHighlight">@color/red_with_alpha_45</item>
+        <item name="android:textColor">@color/custom_green</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@android:color/holo_orange_light</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="lbl_layout_title" parent="Theme.AppCompat">
+        <item name="android:colorControlHighlight">@color/red_with_alpha_45</item>
+        <item name="android:textColor">@color/custom_green</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/title_control_text_size</item>
+        <item name="android:padding">@dimen/title_control_padding</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@android:color/holo_orange_light</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="lbl_list_layout_title" parent="Theme.AppCompat">
+        <item name="android:colorControlHighlight">@color/red_with_alpha_45</item>
+        <item name="android:textColor">@color/custom_green</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/title_control_text_size</item>
+        <item name="android:padding">@dimen/title_control_padding</item>
+        <item name="android:paddingTop">@dimen/weights_list_title_vertical_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@android:color/holo_orange_light</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Weight_recording.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Weight_recording.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Weight_recording.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="list_row_labels_theme" parent="Theme.AppCompat">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/list_row_labels_theme_foregroundcolor</item>
+        <item name="android:background">@color/list_row_labels_theme_backgroundcolor</item>
+        <item name="android:paddingTop">@dimen/list_row_labels_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/list_row_labels_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/list_row_labels_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/list_row_labels_horizontal_margin</item>
+        <item name="android:layout_margin">@dimen/list_row_labels_margin</item>
+    </style>
+
+    <style name="editcrudimagetheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudbuttoncolor</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">@color/crudbutton_backgroundcolor</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:padding">@dimen/list_row_control_padding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/edit</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="deletecrudimagetheme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudbuttoncolor</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">@color/crudbutton_backgroundcolor</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:padding">@dimen/list_row_control_padding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/delete</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="curved_edges_buttons_theme" parent="Theme.AppCompat">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_margin">@dimen/crud_control_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">@color/crudbuttoncolor</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowColor">@color/crudbutton_backgroundcolor</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:padding">@dimen/crud_control_padding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/button_view_style</item>
+    </style>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">weight recording app</string>
+
+    <!--crud-->
+    <string name="lblcreateweight_name">name</string>
+    <string name="txtcreateweight_name_hint">name</string>
+    <string name="lblcreateweight_weight">weight</string>
+    <string name="txtcreateweight_weight_hint">weight in kg</string>
+    <string name="lblcreateweight_date">date</string>
+    <string name="txtcreateweight_date_hint">date weight was taken</string>
+    <string name="btncreateweight">create weight</string>
+    <string name="btnweightslist">weights list</string>
+    <string name="imagecontentDescription">weight recording</string>
+    <string name="lblmsglog">weight recording app</string>
+    <string name="txt_server_ip_adress">server ip adress</string>
+    <string name="lbl_create_weight_title">create weight</string>
+    <string name="lbl_main_title">main</string>
+    <string name="lbl_edit_weight_title">edit weight</string>
+    <string name="lbl_delete_weight_title">delete weight</string>
+    <string name="lbl_weights_list_title">weights list</string>
+    <string name="txt_weight_id_hint">Id</string>
+    <string name="txt_weight_weight_hint">weight</string>
+    <string name="txt_weight_date_hint">date</string>
+    <string name="txt_weight_app_hint">app</string>
+    <string name="txt_weight_status_hint">status</string>
+    <string name="txt_weight_created_date_hint">created date</string>
+    <string name="edit_image_content_description">edit</string>
+    <string name="delete_image_content_description">delete</string>
+    <string name="btn_sync_local_db_with_server">sync local db with server</string>
+    <string name="btn_update_weight">update weight</string>
+    <string name="btn_delete_weight">delete weight</string>
+</resources>
+
